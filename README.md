@@ -5,11 +5,10 @@ This project based on https://www.kaggle.com/c/stumbleupon
    
 A short description of the project.
 ------------
-The main focus of this project is a clean project structure and implementation of various techniques.   
+The primary objective of this project is to establish a well-organized project structure and effectively implement diverse techniques.   
 Project structure is based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>.   
 For config handling  <a target="_blank" href="https://hydra.cc/docs/intro/">Hydra library</a>  is used .   
 Notebooks folder contains links to colab notebooks with shap value and DoWhy explorations (ToDo: clean and translate notebooks).   
-
 
 
 Project Organization
@@ -66,9 +65,6 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt`
     ├── README.md          <- The top-level README for developers using this project.
 
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
 --------
 Run training
