@@ -1,7 +1,16 @@
-ml_project
+StumbleUpon Evergreen Classification Challenge
 ==============================
-
+This project based on https://www.kaggle.com/c/stumbleupon    
+"StumbleUpon is a user-curated web content discovery engine that recommends relevant, high quality pages and media to its users, based on their interests. While some pages we recommend, such as news articles or seasonal recipes, are only relevant for a short period of time, others maintain a timeless quality and can be recommended to users long after they are discovered."
+   
 A short description of the project.
+------------
+The main focus of this project is a clean project structure and implementation of various techniques.   
+Project structure is based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>.   
+For config handling  <a target="_blank" href="https://hydra.cc/docs/intro/">Hydra library</a>  is used .   
+Notebooks folder contains links to colab notebooks with shap value and DoWhy explorations (ToDo: clean and translate notebooks).   
+
+
 
 Project Organization
 ------------
@@ -62,9 +71,9 @@ Project Organization
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
 --------
-Запуск обучения
+Run training
 ------------
-Для корректного обучения модели нужны следующие конфиги:
+These configs should be filled out for running train:
 
     ├── configs
     │   └── feature_params
@@ -84,14 +93,14 @@ Project Organization
     │   │
     │   ├── train_config.yaml      <- Конфиг для train_pipline, которые использует Hydra
 
-Запуск обучения модели:  `python src/train_pipeline.py`
+Run model train:  `python src/train_pipeline.py`
 
 --------
-Запуск построения прогноза
+Run prediction
 --------
-Для корректного построения прогноза нужны следующие конфиги:
+These configs should be filled out for running predict:
 
     ├── configs
-        └── predict_config.yaml <- Конфиг содержит пути до модели и трансформатора.
+        └── predict_config.yaml <- path to models and transformers.
         
-Запуск построения прогноза:  `python src/predict_pipeline.py`
+Run predict:  `python src/predict_pipeline.py`
