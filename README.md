@@ -76,21 +76,19 @@ These configs should be filled out for running train:
 
     ├── configs
     │   └── feature_params
-    │   │   └── features.yaml   <- Конфиг с наименованием фичей и разделением на категориальные/численные/таргет фичи.
-    │   │                          Так же необходимо указать требуется ли приведение к норм. распределению
-    │   │                         численных фиччей
+    │   │   └── features.yaml   <- Config for feature description
     │   │
     │   ├── path_config           
-    │   │   └── path_config.yaml <- Конфиг с путями до всех нужных файлов: данные, модели и тд
+    │   │   └── path_config.yaml <- Config with all paths: data, models, etc
     │   │
     │   ├── splitting_params
-    │   │   └── splitting_params.yaml <- Конфиг с параметрами для split
+    │   │   └── splitting_params.yaml <- Config with parametes for split
     │   │
     │   ├── train_params
-    |   |   └── logreg.yaml          <- Конфиг с параметрами модели logisticregression
-    │   │   └── rf.yaml              <- Конфиг с параметрами модели randomforest
+    |   |   └── logreg.yaml          <- Config for a model logisticregression
+    │   │   └── rf.yaml              <- Config for a model randomforest
     │   │
-    │   ├── train_config.yaml      <- Конфиг для train_pipline, которые использует Hydra
+    │   ├── train_config.yaml      <- Config for train_pipline for Hydra
 
 Run model train:  `python src/train_pipeline.py`
 
