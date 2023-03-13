@@ -10,6 +10,9 @@ Project structure is based on the <a target="_blank" href="https://drivendata.gi
 For config handling  <a target="_blank" href="https://hydra.cc/docs/intro/">Hydra library</a>  is used .   
 Notebooks folder contains links to colab notebooks with shap value and DoWhy explorations (ToDo: clean and translate notebooks).   
 
+To be done:
+1. Translate notebooks.
+2. Improve parameters optimization
 
 Project Organization
 ------------
